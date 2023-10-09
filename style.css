@@ -66,6 +66,7 @@ img {
 
 .showcase {
   background-color: #f1e4e6;
+  position: relative;
 }
 
 .showcase-items {
@@ -101,6 +102,52 @@ img {
   font-weight: 700;
 }
 
+
+
+.menu-open {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 5%;
+  gap: 12px;
+  background-color: #fff;
+  padding: 32px 74px 32px 33px;
+  max-width: 232px;
+}
+.hidden {
+  display: none;
+}
+
+.menu__main-headline {
+  color: #000;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+
+.menu__sub-headline {
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.menu__link {
+  color: #6f6e6e;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 21.5px;
+}
+
 .promo-blocks {
   display: flex;
   justify-content: space-between;
@@ -117,13 +164,13 @@ img {
 }
 
 .promo-1 {
-  background-image: url(./img/promo-block-img-1.png);
+  background-image: url(./img/promo-block-img-1.webp);
 }
 .promo-2 {
-  background-image: url(./img/promo-block-img-2.png);
+  background-image: url(./img/promo-block-img-2.webp);
 }
 .promo-3 {
-  background-image: url(./img/promo-block-img-3.png);
+  background-image: url(./img/promo-block-img-3.webp);
 }
 
 .promo-block-long {
@@ -195,27 +242,27 @@ img {
 }
 
 .item-block-img-1 {
-  background-image: url(./img/featured-item-img-1.png);
+  background-image: url(./img/featured-item-img-1.webp);
   background-size: cover;
 }
 .item-block-img-2 {
-  background-image: url(./img/featured-item-img-2.png);
+  background-image: url(./img/featured-item-img-2.webp);
   background-size: cover;
 }
 .item-block-img-3 {
-  background-image: url(./img/featured-item-img-3.png);
+  background-image: url(./img/featured-item-img-3.webp);
   background-size: cover;
 }
 .item-block-img-4 {
-  background-image: url(./img/featured-item-img-4.png);
+  background-image: url(./img/featured-item-img-4.webp);
   background-size: cover;
 }
 .item-block-img-5 {
-  background-image: url(./img/featured-item-img-5.png);
+  background-image: url(./img/featured-item-img-5.webp);
   background-size: cover;
 }
 .item-block-img-6 {
-  background-image: url(./img/featured-item-img-6.png);
+  background-image: url(./img/featured-item-img-6.webp);
   background-size: cover;
 }
 
@@ -466,11 +513,11 @@ img {
 }
 
 .footer__content__links__blocks:hover {
-  background-color:rgba(241, 109, 127, 1);
+  background-color: rgba(241, 109, 127, 1);
 }
 
 .footer__content__links__blocks:hover svg path {
-  fill:#fff;
+  fill: #fff;
 }
 
 @media (max-width: 1270px) and (min-width: 768px) {
